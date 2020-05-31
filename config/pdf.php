@@ -8,8 +8,8 @@ return [
 	'keywords'              => '',
 	'creator'               => 'Laravel Pdf',
 	'display_mode'          => 'fullpage',
-	'tempDir' 				=> public_path('temp'),
-	'font_path' 			=> base_path('public/fonts/'),
+	'tempDir' 				=> base_path('public/storage'),
+	'font_path' 			=> base_path('public/assets/fonts/'),
 	'font_data' => [
 		'thsarabunnew' => [
 			'R'  => 'THSarabunNew.ttf',    // regular font

@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('generate','MpdfController@Generate')->name('generate');
+Route::get('edit','MpdfController@Edit')->name('edit');
